@@ -1,0 +1,38 @@
+What is ns-3?
+
+ns-3 is a discrete-event network simulator, targeted primarily for research and educational use. ns-3 is free software, licensed under the GNU GPLv2 license, and is publicly available for research, development, and use.
+
+The goal of the ns-3 project is to develop a free and open source simulation environment suitable for networking research: it should be aligned with the simulation needs of modern networking research and should encourage community contribution, peer review, and validation of the software. ns-3 is maintained by a worldwide team of volunteer maintainers.
+
+NS-3 SIMULATOR INSTALLATION PROCESS:
+
+• Download ns3 simulator from the official site of ns3 simulator.
+• It will be downloaded as zar or zip file.
+• Extract it to the desktop.
+
+INSTALLATION :
+
+❖ Open the terminal
+❖ Type in the command : sudo apt update
+❖ sudo password is the password u have set to log in to the
+ubuntu. (Note : password will not be visible while typing.After
+typing correct pwd you can click enter.)
+❖ Type in the command : sudo apt install build-essential (it will
+take about 5-10mins)
+❖ Nxt change the directory to the extracted ns3 folder.For that type
+in the command : cd ns-allinone-3.31 (Now the directory will be
+changed from desktop to ns-allinone-3.31.check it.)
+❖ Nxt type in the cmd: ./build.py --enable-examples --enable-test
+(Note:It will take about 45mins-1hr to complete).
+❖ Now change the directory to ns-3.31.For that Type in the
+command : cd ns-3.31 (Now the directory will be changed from
+ns-allinone-3.31 to ns-3.31)
+❖ Nxt type in the command : ./waf --build-profile=debug --enableexamples --enable-tests configure
+❖ Nxt type in the command : ./waf
+❖ Nxt type in the command : ./test.py-c core (It will take about 15-
+30 mins)
+❖ Nxt type in the command : ./waf --run hello-simulator(If you see
+build successfully and the output as Hello simulator ,you have
+successfully installed the ns3.)
+PS:ubuntu is case sensitive.Make sure you have type in the command
+correctly
