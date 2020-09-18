@@ -31,7 +31,7 @@ ns-allinone-3.31 to ns-3.31)
 ❖ Nxt type in the command : ./waf
 ❖ Nxt type in the command : ./test.py-c core (It will take about 15-
 30 mins)
-❖ Nxt type in the command : ./waf --run hello-simulator(If you see
+❖ Nxt type in the command : ./waf --run hello-simulator (If you see
 build successfully and the output as Hello simulator ,you have
 successfully installed the ns3.)
 PS:ubuntu is case sensitive.Make sure you have type in the command
