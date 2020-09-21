@@ -5,7 +5,7 @@ ns-3 is a discrete-event network simulator, targeted primarily for research and 
 The goal of the ns-3 project is to develop a free and open source simulation environment suitable for networking research: it should be aligned with the simulation needs of modern networking research and should encourage community contribution, peer review, and validation of the software. ns-3 is maintained by a worldwide team of volunteer maintainers.
 
 NS-3 SIMULATOR INSTALLATION PROCESS:
-
+    
 • Download ns3 simulator from the official site of ns3 simulator.
 • It will be downloaded as zar or zip file.
 • Extract it to the desktop.
